@@ -96,7 +96,7 @@ export default Vue.extend({
 
 ## Show
 
-
+![searchBar](.\doc\searchBar.png)
 
 ## License
 
