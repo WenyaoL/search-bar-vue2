@@ -2,7 +2,11 @@
 node_modules
 /dist
 /build
-/lib
+/dev
+/public
+/config
+/vue.config.js
+/tsconfig.json
 
 # local env files
 .env.local
