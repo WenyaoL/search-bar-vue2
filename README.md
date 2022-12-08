@@ -7,6 +7,7 @@
     - [Global component](#global-component)
     - [Local component](#local-component)
     - [props options](#props-options)
+  - [Show](#show)
   - [License](#license)
 
 
@@ -96,7 +97,7 @@ export default Vue.extend({
 
 ## Show
 
-![searchBar](.\doc\searchBar.png)
+![searchBar](./doc/searchBar.png)
 
 ## License
 
