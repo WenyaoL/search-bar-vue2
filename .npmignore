@@ -7,6 +7,8 @@ node_modules
 /config
 /vue.config.js
 /tsconfig.json
+/src
+/babel.config.js
 
 # local env files
 .env.local

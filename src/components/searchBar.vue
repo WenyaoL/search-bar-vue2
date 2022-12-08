@@ -180,6 +180,7 @@ export default{
         const {searchValue} = this
         this.search(searchValue)
       },
+      //切换大小写敏感
       checkoutCaseSensitive(event:MouseEvent){
         let element = event.currentTarget as HTMLElement
         this.isCaseSensitive = !this.isCaseSensitive
@@ -188,6 +189,7 @@ export default{
         this.search(this.searchValue)
 
       },
+      //切换整个单词匹配
       checkoutWholeWord(event:MouseEvent){
         let element = event.currentTarget as HTMLElement
         this.isWholeWord = !this.isWholeWord
@@ -195,6 +197,7 @@ export default{
         else element.classList.remove("checked")
         this.search(this.searchValue)
       },
+      //切换正则表达匹配
       checkoutRegex(event:MouseEvent){
         let element = event.currentTarget as HTMLElement
         this.isRegexp = !this.isRegexp
@@ -204,15 +207,18 @@ export default{
       },
       search(text:string){
         let node = document.querySelector(this.root)
+        if(!node) return
         //高亮标记
         if(this.isHighlight){
           const {isCaseSensitive,isWholeWord,isRegexp,highlightClass} = this
+          //高亮搜索
           this.searchMatches.result = highlight(
             node,
             text,
             {isCaseSensitive,isWholeWord,isRegexp,highlightClass}
           )
           this.searchMatches.index = 0
+          //匹配
           selectMatch(
             this.searchMatches.result,
             this.searchMatches.index,
