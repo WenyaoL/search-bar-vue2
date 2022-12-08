@@ -94,6 +94,10 @@ export default Vue.extend({
 | highlightClass | The className assigned by the highlighted block              | string  | "__highLight"        |
 | selectedClass  | The className assigned by the selected block                 | string  | "selected-highlight" |
 
+## Show
+
+
+
 ## License
 
 MIT license

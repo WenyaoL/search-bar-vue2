@@ -9,6 +9,7 @@ node_modules
 /tsconfig.json
 /src
 /babel.config.js
+/doc
 
 # local env files
 .env.local
