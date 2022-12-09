@@ -1,8 +1,8 @@
 <template>
   <div>
-    <search-bar :root="'#app'" :highlightClass="'myHighLight'" :selectedClass="'selected-highlight'" :hiden.sync="showSearchBar"/>
+    <search-bar :root="'#document'" :highlightClass="'myHighLight'" :selectedClass="'selected-highlight'" :hiden.sync="showSearchBar"/>
     <button @click="searchClick()">搜索按钮</button>
-    <div id="app">
+    <div id="document">
       <document/>
     </div>
   </div>

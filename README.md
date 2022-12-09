@@ -37,12 +37,12 @@ Vue.use(SearchBar)
 ```html
 <template>
   <div>
-    <search-bar :root="'#app'" 
+    <search-bar :root="'#document'" 
                 :highlightClass="'myHighLight'" 
                 :selectedClass="'selected-highlight'" 
                 :hiden.sync="showSearchBar"/>
     <button @click="searchClick()">搜索按钮</button>
-    <div id="app">
+    <div id="document">
         <!--文档-->
       <document/>
     </div>
@@ -52,12 +52,12 @@ Vue.use(SearchBar)
 <script lang="ts">
 import Vue from 'vue';
 import Document from './components/Document.vue';
-import {searchBar} from 'search-bar-vue2'
+import {SearchBar} from 'search-bar-vue2'
 export default Vue.extend({
   name: 'App',
   components: {
     Document,
-    searchBar
+    SearchBar
   },
   data(){
     return{

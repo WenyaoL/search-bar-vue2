@@ -1,10 +1,10 @@
 import Vue,{VueConstructor} from 'vue'
-import searchBar from './components/searchBar.vue'
+import SearchBar from './components/SearchBar.vue'
 
 const install = (Vue:VueConstructor,options:any) => {
-    Vue.component('searchBar',searchBar)
+    Vue.component('SearchBar',SearchBar)
 }
 
-export default {install,searchBar}
+export default {install,SearchBar}
 
-export {install,searchBar}
+export {install,SearchBar}
