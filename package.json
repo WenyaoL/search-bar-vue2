@@ -1,5 +1,5 @@
 {
-  "name": "search-toolbar-vue2",
+  "name": "search-bar-vue2",
   "version": "1.0.0",
   "main": "lib/index.js",
   "author": "WenyaoL",
@@ -9,7 +9,8 @@
     "search-bar",
     "browser search bar",
     "Keyword Search",
-    "search-toolbar-vue2"
+    "search-toolbar-vue2",
+    "search-bar-vue2"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -17,8 +18,7 @@
     "build:vue": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "core-js": "^3.8.3",
+  "peerDependencies": {
     "vue": "^2.6.14"
   },
   "devDependencies": {
@@ -37,6 +37,7 @@
     "ts-loader": "^9.4.2",
     "typescript": "~4.5.5",
     "url-loader": "^4.1.1",
+    "vue": "^2.6.14",
     "vue-loader": "^15.10.1",
     "vue-style-loader": "^4.1.3",
     "vue-template-compiler": "^2.7.14",
