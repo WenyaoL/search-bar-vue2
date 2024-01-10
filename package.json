@@ -1,5 +1,5 @@
 {
-  "name": "search-bar-vue-2",
+  "name": "search-toolbar-vue2",
   "version": "1.0.0",
   "main": "lib/index.js",
   "author": "WenyaoL",
@@ -9,7 +9,7 @@
     "search-bar",
     "browser search bar",
     "Keyword Search",
-    "search-bar-vue-2"
+    "search-toolbar-vue2"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
